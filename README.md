@@ -50,7 +50,7 @@ poetry run python manage.py loaddata fixtures/initial_dds_data.json
 
 ## pre-commit
 
-В проекте настроен pre-commit с форматированием и линтингом (black, isort, flake8).
+В проекте настроен pre-commit с форматированием и линтингом (black, flake8).
 
 Установка хуков:
 
