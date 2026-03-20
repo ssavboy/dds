@@ -1,0 +1,115 @@
+[
+{
+  "model": "app.status",
+  "pk": 1,
+  "fields": {
+    "name": "Бизнес"
+  }
+},
+{
+  "model": "app.status",
+  "pk": 2,
+  "fields": {
+    "name": "Личное"
+  }
+},
+{
+  "model": "app.status",
+  "pk": 3,
+  "fields": {
+    "name": "Налог"
+  }
+},
+{
+  "model": "app.status",
+  "pk": 4,
+  "fields": {
+    "name": "Инвестиции"
+  }
+},
+{
+  "model": "app.status",
+  "pk": 5,
+  "fields": {
+    "name": "Кредит"
+  }
+},
+{
+  "model": "app.operationtype",
+  "pk": 3,
+  "fields": {
+    "name": "Пополнение"
+  }
+},
+{
+  "model": "app.operationtype",
+  "pk": 4,
+  "fields": {
+    "name": "Списание"
+  }
+},
+{
+  "model": "app.category",
+  "pk": 3,
+  "fields": {
+    "name": "Инфраструктура",
+    "operation_type": 4
+  }
+},
+{
+  "model": "app.category",
+  "pk": 4,
+  "fields": {
+    "name": "Маркетинг",
+    "operation_type": 4
+  }
+},
+{
+  "model": "app.category",
+  "pk": 5,
+  "fields": {
+    "name": "Инфраструктура",
+    "operation_type": 3
+  }
+},
+{
+  "model": "app.subcategory",
+  "pk": 1,
+  "fields": {
+    "name": "VPS",
+    "category": 3
+  }
+},
+{
+  "model": "app.subcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Proxy",
+    "category": 3
+  }
+},
+{
+  "model": "app.subcategory",
+  "pk": 3,
+  "fields": {
+    "name": "Farpost",
+    "category": 4
+  }
+},
+{
+  "model": "app.subcategory",
+  "pk": 4,
+  "fields": {
+    "name": "Avito",
+    "category": 4
+  }
+},
+{
+  "model": "app.subcategory",
+  "pk": 5,
+  "fields": {
+    "name": "VPS",
+    "category": 5
+  }
+}
+]
