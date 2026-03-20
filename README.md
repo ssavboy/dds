@@ -4,6 +4,9 @@
 
 ***
 
+<img width="1339" height="559" alt="image" src="https://github.com/user-attachments/assets/b8025b7a-c771-4122-b1fe-0ccbfc4ca33c" />
+
+
 ## Запуск через venv
 
 ```bash
